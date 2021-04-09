@@ -1,5 +1,5 @@
 # coinz
 
-  - (docs/STEP0.md)[docs/STEP0.md]
+  - [STEP0](docs/STEP0.md)
 
-  - [docs/STEP0.md](docs/STEP0.md)
+  - [STEP1](docs/STEP1.md)

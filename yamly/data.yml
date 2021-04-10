@@ -1,0 +1,36 @@
+n: 1
+
+qqq: >-
+  111 222
+  333 444
+  555 666
+  
+qq2: |-
+  111 222
+  333 444
+  555 666
+  
+w:
+- 100
+- "100"
+- !!str 5
+- !!float "1.2"
+- !!bool false
+- !!bool "true"
+- !!bool "true"#t
+- qq ww ee
+- qq, ww, ee
+- [qq, ww, ee]
+z: qqq1
+e:
+- r1: x
+  r2: y
+- r3: x
+  r4: y
+---
+n: 2
+z: qqq2
+---
+n: 2
+z: qqq3
+...
